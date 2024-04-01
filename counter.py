@@ -17,7 +17,7 @@ def main(page: ft.Page):
     toChange = str(int(txt_number.value))
 
     if int(toChange) <= 0:
-        txt_number.value = "0"
+        txt_number.value == 0
 
     def minus_click(e):
         txt_number.value = str(int(txt_number.value) - 1)
